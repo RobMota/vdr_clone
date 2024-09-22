@@ -2,10 +2,10 @@ const Mari = () => {
   return (
     <div
       className=" w-[100vw] h-[100%] 
-      bg-gradient-to-b from-[#1e1e1e] from-1% via-[#000000] via-50% to-[#1e1e1e] to-100% "
+      bg-gradient-to-b from-[#1e1e1e] from-1% via-[#000000] via-50% to-[#1e1e1e] to-100%"
     >
-      <div className=" flex justify-center items-center ">
-        <div className="flex flex-col md:w-[1200px] h-[100%] py-28">
+      <div className="flex justify-center items-center">
+        <div className="flex flex-col md:w-[1200px] h-[100%] py-12 md:py-28">
           <div className=" flex flex-wrap p-7 md:flex-nowrap">
             <div className="w-[244px] h-[185px] md:w-[445px] md:h-[336px] bg-slate-500">
               <img src="" alt="" />

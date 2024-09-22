@@ -15,7 +15,7 @@ const Mari = () => {
               <p className="text-white font-poppins font-[300] text-[24px] mt-7 md:text-[32px]">
                 <p className="my-7">
                   Essa é a
-                  <span className="text-[#b2ec05]  font-bold underline">
+                  <span className="text-[#b2ec05] font-bold underline">
                     {" "}
                     Mari.
                   </span>

@@ -7,7 +7,7 @@ const Capacidade = () => {
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:w-[1200px] h-[100%] py-12">
           <div className="flex items-center justify-center flex-wrap p-7">
-            <div className="flex items-center justify-center text-center mb-7 w-1/2">
+            <div className="flex items-center justify-center text-center">
               <p className="text-white text-[40px]">
                 AO FINAL DO TREINAMENTO{" "}
                 <span className="text-[#b2ec05]"> VOCÊ SERÁ CAPAZ DE:</span>

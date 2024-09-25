@@ -70,7 +70,7 @@ const Mari = () => {
               <p className="text-[#696969] font-poppins text-[20px] md:mr-5">
                 Mari A. Martin
               </p>
-              <img src="" alt="" className="h-[194px] w-[197px] bg-gray-500" />
+              <img src="" alt="" className="h-[194px] w-[197px]" />
             </div>
           </div>
           <div className="my-7 flex flex-col text-center items-center justify-center">

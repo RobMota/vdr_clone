@@ -3,7 +3,7 @@ const Limite = () => {
     <div className="bg-[#8c2fff] flex justify-center items-center">
       <div className="flex md:w-[1200px] h-[100%] py-12 p-7">
         <div className="flex flex-wrap justify-center items-center">
-          <p className="text-[#b2ec05] font-bold flex flex-col justify-center items-center">
+          <p className="text-[#b2ec05] font-bold flex flex-col justify-center items-center animate-pulse">
             <p className="text-[40px]">APENAS</p>
             <p className="text-[70px]">1200</p>
             <p className="text-[40px]">VAGAS</p>

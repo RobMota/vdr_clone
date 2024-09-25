@@ -7,14 +7,14 @@ import Mari from "./Mari";
 
 const Main = () => {
   return (
-    <>
+    <div>
       <Mari />
       <Bonus />
       <Limite />
       <Capacidade />
       <Aprender />
       <Exclusivo />
-    </>
+    </div>
   );
 };
 

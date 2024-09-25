@@ -1,7 +1,7 @@
 const Mari = () => {
   return (
     <div
-      className=" w-[100vw] h-[100%] 
+      className=" w-[100%] h-[100%] 
       bg-gradient-to-b from-[#1e1e1e] from-1% via-[#000000] via-50% to-[#1e1e1e] to-100%"
     >
       <div className="flex justify-center items-center">

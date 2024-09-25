@@ -2,7 +2,7 @@ import plus from "../../assets/icons/plus.svg";
 
 const Aprender = () => {
   return (
-    <div className="w-[100vw] h-[100%] bg-[#000]">
+    <div className="w-[100%] h-[100%] bg-[#000]">
       <div className="flex justify-center items-center">
         <div className="flex flex-col md:w-[1200px] h-[100%] py-12">
           <div className="flex items-center justify-center flex-wrap p-7">

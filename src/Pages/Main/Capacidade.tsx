@@ -1,7 +1,7 @@
 const Capacidade = () => {
   return (
     <div
-      className="w-[100vw] h-[100%] 
+      className="w-[100%] h-[100%] 
 		bg-gradient-to-b from-[#000000] to-[#1e1e1e]"
     >
       <div className="flex justify-center items-center">

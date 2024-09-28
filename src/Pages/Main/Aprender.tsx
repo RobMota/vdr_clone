@@ -1,4 +1,4 @@
-import PlusIcon from "../../assets/icons/plus";
+import { CustomLittleButton } from "../../components/Button";
 
 const Aprender = () => {
   return (
@@ -24,14 +24,7 @@ const Aprender = () => {
                     <p className="text-[18px] md:text-[22px] font-bold text-center my-auto">
                       Mentalidade
                     </p>
-                    <button
-                      className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1
-                    flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto"
-                    >
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
                   <li className="flex flex-1 flex-col items-center py-7">
@@ -42,14 +35,7 @@ const Aprender = () => {
                     <p className="text-[18px] md:text-[22px] font-bold text-center my-auto">
                       Poupança, orçamento e gastos
                     </p>
-                    <button
-                      className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1
-                    flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto"
-                    >
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                 </div>
                 <hr className="w-0 md:border-r-[1px] md:h-[300px] md:border-[#8c2fff] md:mx-5" />
@@ -62,14 +48,7 @@ const Aprender = () => {
                     <p className="text-[18px] md:text-[22px] font-bold text-center my-auto">
                       Renda Fixa
                     </p>
-                    <button
-                      className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1
-                    flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto"
-                    >
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
                   <li className="flex flex-1 flex-col items-center py-7">
@@ -80,14 +59,7 @@ const Aprender = () => {
                     <p className="text-[18px] md:text-[22px] font-bold text-center my-auto">
                       Investimento em renda variável
                     </p>
-                    <button
-                      className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1
-                    flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto"
-                    >
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                 </div>{" "}
               </div>
@@ -102,11 +74,7 @@ const Aprender = () => {
                     <p className="text-[18px] md:text-[22px] font-bold text-center my-auto">
                       Investimento no exterior
                     </p>
-                    <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
                   <li className="flex flex-1 flex-col items-center py-7">
@@ -117,11 +85,7 @@ const Aprender = () => {
                     <p className="text-[14px] md:text-[22px] font-bold text-center my-auto">
                       Empreendedorismo
                     </p>
-                    <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                 </div>
                 <hr className="w-0 md:border-r-[1px] md:h-[300px] md:border-[#8c2fff] md:mx-5" />
@@ -138,11 +102,7 @@ const Aprender = () => {
                     >
                       Simplificação, seguros e sucessão patrimonial
                     </p>
-                    <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
-                      LER MAIS
-                      {/* icon */}
-                      <PlusIcon />
-                    </button>
+                    <CustomLittleButton />
                   </li>
                 </div>
               </div>

@@ -1,3 +1,5 @@
+import { CustomBigButton } from "../../components/Button";
+
 const Mari = () => {
   return (
     <div
@@ -85,11 +87,7 @@ const Mari = () => {
             <p className="text-[24px] font-poppins font-bold text-[#b2ec05]">
               Você quer ser o próximo?
             </p>
-            <button className="bg-[#8c2fff] min-w-[340px] py-6 rounded-full mt-5 md:w-[480px] md:mt-12 hover:bg-[#8d2fffbb] transition-all">
-              <span className="size-5 font-poppins font-extrabold uppercase text-white">
-                FAÇA SUA MATRÍCULA!
-              </span>
-            </button>
+            <CustomBigButton text="FAÇA SUA MATRÍCULA!" />
           </div>
         </div>
       </div>

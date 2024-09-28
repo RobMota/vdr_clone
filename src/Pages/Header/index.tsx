@@ -1,5 +1,6 @@
 import capa from "../../assets/image/capa.jpg";
 import logo from "../../assets/image/logo_viver_de_renda.png";
+import { CustomBigButton } from "../../components/Button";
 
 const Header = () => {
   return (
@@ -34,12 +35,7 @@ const Header = () => {
                 mesmo que hoje você não saiba nada sobre o assunto.
               </span>
             </p>
-
-            <button className="bg-[#8c2fff] min-w-[340px] py-6 rounded-full ml-5 mt-7 md:w-[480px] md:mt-12 hover:bg-[#8d2fffbb] transition-all animate-shake">
-              <span className="size-5 font-poppins font-extrabold uppercase text-white">
-                Faça a sua pré-matricula agora!
-              </span>
-            </button>
+            <CustomBigButton text="Faça a sua pré-matricula agora!" />
           </div>
         </div>
       </div>

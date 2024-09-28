@@ -3,8 +3,8 @@ import logo from "../../assets/image/logo_viver_de_renda.png";
 
 const Header = () => {
   return (
-    <div className="h-[100vh] bg-black">
-      <div className="bg-gradient-to-r from-[#c8fd23] to-[#91e207] w-full  h-[100px] flex items-center justify-center ">
+    <header className="h-[100vh] bg-black">
+      <div className="bg-gradient-to-r from-[#c8fd23] to-[#91e207] w-full h-[100px] flex items-center justify-center ">
         <div className="flex items-center justify-between text-[20px] md:text-[24px] animate-pulse">
           <p className="max-w-48">AS INSCRIÇÕES ABREM NO DIA </p>
           <p className="ml-14 font-bold">14/10</p>
@@ -43,10 +43,8 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
 export default Header;
-
-

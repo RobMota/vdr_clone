@@ -10,8 +10,8 @@ const Exclusivo = () => {
         <div className="flex flex-col md:w-[1200px] h-[100%] flex-wrap justify-between pt-12 pb-24 md:py-12">
           <div className="flex flex-col items-center justify-center  ">
             <p className="text-[40px] text-center">
-              <p className="text-[#b2ec05]">BÔNUS EXCLUSIVOS</p>
-              <p className="text-white">PARA OS ALUNOS VIVER DE RENDA</p>
+              <span className="text-[#b2ec05]">BÔNUS EXCLUSIVOS</span>
+              <span className="text-white">PARA OS ALUNOS VIVER DE RENDA</span>
             </p>
             <div className="flex flex-wrap mt-7">
               <div className="h-[100%] md:h-[500px] w-[100%] md:w-[360px] rounded-xl">
@@ -24,13 +24,13 @@ const Exclusivo = () => {
                   </div>
                 </div>
                 <div className="w-[100%] h-[60%] rounded-b-xl bg-[#1d1d1d] flex flex-col items-start px-7 py-7">
-                  <p className="text-[24px]">
-                    <p className="text-white">3 Meses</p>
-                    <p>
+                  <p className="text-[24px] w-1/2">
+                    <span className="text-white">3 Meses</span>
+                    <span>
                       {" "}
                       <span className="text-white">de</span>{" "}
                       <span className="text-[#b2ec05]">myProfit</span>
-                    </p>
+                    </span>
                   </p>
                   <p className="text-white text-[18px] mt-3">
                     Esqueça as planilhas. IR de investimentos resolvidos, e sua

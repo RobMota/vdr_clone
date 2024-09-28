@@ -1,21 +1,4 @@
-const SvgIcon = () => {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="1.5"
-      stroke="currentColor"
-      className="size-5 ml-2"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="M12 4.5v15m7.5-7.5h-15"
-      />
-    </svg>
-  );
-};
+import PlusIcon from "../../assets/icons/plus";
 
 const Aprender = () => {
   return (
@@ -47,7 +30,7 @@ const Aprender = () => {
                     >
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
@@ -65,7 +48,7 @@ const Aprender = () => {
                     >
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                 </div>
@@ -85,7 +68,7 @@ const Aprender = () => {
                     >
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
@@ -103,7 +86,7 @@ const Aprender = () => {
                     >
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                 </div>{" "}
@@ -122,7 +105,7 @@ const Aprender = () => {
                     <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                   <hr className="w-0 border-r-[1px] h-[300px] border-[#8c2fff] mx-5" />
@@ -137,7 +120,7 @@ const Aprender = () => {
                     <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                 </div>
@@ -158,7 +141,7 @@ const Aprender = () => {
                     <button className="border-[1px] border-[#b2ec05] text-[#b2ec05] rounded-3xl px-3 py-1 flex items-center justify-between hover:bg-[#b2ec05] hover:text-[#000] transition-all text-[14px] font-bold mt-auto">
                       LER MAIS
                       {/* icon */}
-                      <SvgIcon />
+                      <PlusIcon />
                     </button>
                   </li>
                 </div>

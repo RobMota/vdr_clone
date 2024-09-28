@@ -33,12 +33,19 @@ export default {
           '50%': { transform: 'rotate(3.0deg)' },
           '60%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
+        },
+
+        slideUp: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 }
         }
       },
+
       animation: {
         pulse: 'pulse 2s ease-in-out infinite',
         slide: 'slide 2s ease-in-out',
-        shake: 'shake 2s ease-in-out'
+        shake: 'shake 2s ease-in-out',
+        slideUp: "slideUp .5s forwards"
       },
     },
   },

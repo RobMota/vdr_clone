@@ -13,13 +13,13 @@ const Mari = () => {
 
             <div className="flex-1  md:py-5 md:px-10">
               <p className="text-white font-poppins font-[300] text-[24px] mt-7 md:text-[32px]">
-                <p className="my-7">
+                <span className="my-7">
                   Essa é a
                   <span className="text-[#b2ec05] font-bold underline">
                     {" "}
                     Mari.
                   </span>
-                </p>
+                </span>
                 <span>
                   A{" "}
                   <span className="text-[#b2ec05]  font-bold">
@@ -39,9 +39,9 @@ const Mari = () => {
 
           <div className="border border-[#8c2fff] px-7 py-28 rounded-3xl mt-7">
             <p className="text-white font-poppins font-[300] text-[24px]  md:text-[32px] ">
-              <p className="text-[#b2ec05] font-bold mb-5">
+              <span className="text-[#b2ec05] font-bold mb-5">
                 <span className=" underline"> Mari</span> decidiu mudar!
-              </p>
+              </span>
               Mesmo arrependida das escolhas errôneas do passado,{" "}
               <span className="text-[#b2ec05]  font-bold">
                 Mari decidiu entrar no Viver de Renda

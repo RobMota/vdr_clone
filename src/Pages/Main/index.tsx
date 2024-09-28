@@ -7,17 +7,15 @@ import Mari from "./Mari";
 
 const Main = () => {
   return (
-    <>
+    <main>
       <Mari />
       <Bonus />
       <Limite />
       <Capacidade />
       <Aprender />
       <Exclusivo />
-    </>
+    </main>
   );
 };
 
 export default Main;
-
-

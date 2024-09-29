@@ -38,14 +38,24 @@ export default {
         slideUp: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 }
+        },
+
+        ping: {
+          "75%, 100%": {
+            transform: "scale(2)",
+            opacity: 0,
+          }
         }
+
       },
 
       animation: {
         pulse: 'pulse 2s ease-in-out infinite',
         slide: 'slide 2s ease-in-out',
         shake: 'shake 2s ease-in-out',
-        slideUp: "slideUp .5s forwards"
+        slideUp: "slideUp .5s forwards",
+        shake2: 'shake 2s linear infinite',
+        ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite"
       },
     },
   },

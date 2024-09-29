@@ -9,9 +9,9 @@ const Exclusivo = () => {
       >
         <div className="flex flex-col md:w-[1200px] h-[100%] flex-wrap justify-between pt-12 pb-24 md:py-12">
           <div className="flex flex-col items-center justify-center  ">
-            <p className="text-[40px] text-center">
+            <p className="text-[40px] text-center flex flex-col">
               <span className="text-[#b2ec05]">BÔNUS EXCLUSIVOS</span>
-              <span className="text-white">PARA OS ALUNOS VIVER DE RENDA</span>
+              <span className="text-white"> PARA OS ALUNOS VIVER DE RENDA</span>
             </p>
             <div className="flex flex-wrap mt-7">
               <div className="h-[100%] md:h-[500px] w-[100%] md:w-[360px] rounded-xl">
@@ -63,9 +63,6 @@ const Exclusivo = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="flex items-center justify-center py-5">
-        <p className="font-extrabold text-[40px]"> Continua... </p>
       </div>
     </>
   );
